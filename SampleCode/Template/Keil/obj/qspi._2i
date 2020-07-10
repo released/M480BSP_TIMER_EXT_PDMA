@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\M480\Include -I ..\..\..\Library\StdDriver\inc
+-IC:\Keil_v5\ARM\RV31\INC
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="521"
+-o .\obj\qspi.o --list_dir ".\\lst\\" --list --omf_browse .\obj\qspi.crf --depend .\obj\qspi.d --feedback ".\obj\template.fed" "..\..\..\Library\StdDriver\src\qspi.c"
